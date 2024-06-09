@@ -1,9 +1,0 @@
-services:
-  app:
-    container_name: app
-    build:
-      context: ..
-      dockerfile: Dockerfile
-    volumes:
-      - ../src:/usr/src
-    tty: true
